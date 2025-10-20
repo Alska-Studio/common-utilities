@@ -1,0 +1,31 @@
+{
+  "name": "@agapi-development-tools/common-utilities",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.18.3",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./colors": {
+      "import": "./dist/utilities/colors.js",
+      "types": "./dist/utilities/colors.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.9.3"
+  }
+}

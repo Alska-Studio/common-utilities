@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "allowJs": false,
+    "target": "esnext",
+    "module": "NodeNext",
+    "lib": [ "esnext" ],
+    "strict": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "incremental": false,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "rootDir": "src",
+    "paths": {
+      "~/": ["./src"],
+      "~/*": ["./src/*"],
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
+  },
+  "include": ["src"]
+}
