@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "types": ["node"],
+    "strict": true,
     "allowJs": false,
     "target": "esnext",
     "module": "NodeNext",
     "lib": [ "esnext" ],
-    "strict": true,
     "declaration": true,
     "declarationDir": "dist",
     "outDir": "dist",
@@ -19,6 +18,7 @@
     "isolatedModules": true,
     "baseUrl": ".",
     "rootDir": "src",
+    "types": ["node"],
     "paths": {
       "~/": ["./src"],
       "~/*": ["./src/*"],

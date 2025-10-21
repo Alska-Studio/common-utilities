@@ -25,7 +25,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "22.10.2",
-    "typescript": "5.9.3"
+    "@agapi-development-tools/eslint-config": "workspace:*",
+    "@types/node": "22.12.0",
+    "typescript": "5.9.3",
+    "jiti": "2.6.1"
   }
 }
